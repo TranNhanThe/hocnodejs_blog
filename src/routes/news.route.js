@@ -7,8 +7,7 @@ const newsController = require('../app/controllers/NewsController');
 const SiteController = require('../app/controllers/SiteController');
 
 // newsController.index
-router.use('/:slug', newsController.show)
-router.use('/', SiteController.index)//step 3
-
+router.use('/:slug', newsController.show);
+router.use('/', SiteController.index); //step 3
 
 module.exports = router;
