@@ -20,7 +20,7 @@ class CourseController {
     // [GET] /courses/create
     // Thêm
     create(req, res, next) {
-         res.render('Courses/create') 
+         res.render('courses/create') 
     }
 
     // [POST] /courses/store
